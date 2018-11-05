@@ -14,7 +14,7 @@
 
 Small framework for easily applying attributes to NSAttributedString.
 
-![Example](res/text_example.png)
+![Example](https://raw.githubusercontent.com/magyarosibotond/AttributedStringTag/master/res/text_example.png)
 
 ## Requirements
 

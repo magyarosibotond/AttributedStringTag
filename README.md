@@ -18,7 +18,7 @@ Small framework for easily applying attributes to NSAttributedString.
 
 ## Requirements
 
-- iOS 7.0+ / macOS 10.10+
+- iOS 8.0+ / macOS 10.10+
 - XCode 10.0+
 - Swift 4.2+
 

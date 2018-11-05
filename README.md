@@ -8,12 +8,11 @@
     - [CocoaPods](#cocoapods)
     - [Carthage](#carthage)
 - [Setup](#setup)
-- [Usage](#usage)
 - [License](#license)
 
 ## About
 
-Small framework for applying attributes easily to NSAttributedString.
+Small framework for easily applying attributes to NSAttributedString.
 
 ![Example](res/text_example.png)
 

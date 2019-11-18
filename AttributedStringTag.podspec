@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                    = "AttributedStringTag"
-  s.version                 = "1.0.1"
+  s.version                 = "1.0.2"
   s.homepage                = "https://github.com/magyarosibotond/AttributedStringTag"
   s.license                 = { :type => "MIT", :file => "LICENSE" }
   s.author                  = "Botond Magyarosi"

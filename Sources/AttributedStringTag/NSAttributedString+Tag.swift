@@ -17,7 +17,7 @@ public extension NSAttributedString {
     /// - Parameters:
     ///   - string: input string with tags
     ///   - tagsAndAttributes: a map of tags an attributes
-    public convenience init(string: String, applyintAttributesForTag tagsAndAttributes: [Tag: [NSAttributedString.Key: Any]]) {
+    public convenience init(string: String, applyingAttributesForTag tagsAndAttributes: [Tag: [NSAttributedString.Key: Any]]) {
         let attributedString = NSMutableAttributedString(string: string)
         for (tag, attributes) in tagsAndAttributes {
             attributedString.setAttributes(attributes, forTag: tag)

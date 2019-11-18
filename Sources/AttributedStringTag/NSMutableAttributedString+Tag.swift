@@ -17,7 +17,7 @@ public extension NSMutableAttributedString {
     ///   - tag: a tag string. ex.: "b"
     /// - Returns: self reference for better chainability
     @discardableResult
-    public func setAttributes(_ attributes: [NSAttributedString.Key: Any], forTag tag: String) -> NSMutableAttributedString {
+    func setAttributes(_ attributes: [NSAttributedString.Key: Any], forTag tag: String) -> NSMutableAttributedString {
         let tagLength = tag.count + 2
         do {
             let expression = try NSRegularExpression(pattern: "<\(tag)>(.*?)</\(tag)>", options: [])
